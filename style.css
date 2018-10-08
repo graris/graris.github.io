@@ -1,3 +1,13 @@
+
+/*
+
+$font-stack: Helvetica, sans-serif;
+$primary-color: #333;
+    #818181
+*/
+
+$primary-color: #333;
+
 #sidebar {
     height: 100%;
     width: 160px;
@@ -10,19 +20,19 @@
     padding-top: 20px;
 }
 
-    #sidebar a {
-        padding: 6px 8px 6px 16px;
-        text-decoration: none;
-        font-size: 25px;
-        color: #818181;
-        display: block;
-    }
+#sidebar a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: $primary-color;
+    display: block;
+}
 
-        #sidebar a:hover {
-            color: #f1f1f1;
-        }
+#sidebar a:hover {
+    color: #f1f1f1;
+}
 
-#main {
+#main { 
     margin-left: 160px;
     font-size: 28px;
     padding: 0px 10px;
