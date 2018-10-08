@@ -36,7 +36,20 @@ $primary-color: #333;
     padding: 0px 10px;
 }
 
-#post {
-    margin: 10px;
+#posts_grid {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 1em;
+}
+
+#post h5 {
+    margin-bottom: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
     background-color: #818181;
+}
+
+#post h5 {
+    margin-top: 0;
 }
